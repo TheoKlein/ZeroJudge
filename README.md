@@ -4,7 +4,6 @@ ZeroJudge
 
 目前以C/C++為主，日後視我學習的其他語言會陸續新增。
 
-
 * [基礎題庫](https://github.com/TheoKlein/ZeroJudge/tree/master/基礎題庫)
 * [競賽題庫](https://github.com/TheoKlein/ZeroJudge/tree/master/競賽題庫)
 * [TOI/NOI題庫](https://github.com/TheoKlein/ZeroJudge/tree/master/TOI:NOI題庫)
