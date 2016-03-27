@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main() {
-    char input[200];
-    char key[] = {" ,.-?!;"};
+    char input[1000];
+    char key[] = {"0123456789~`!@#$%^&*()_-+=\"[]'{}|\\;:/?><., "};
     while(gets(input) != NULL){
         int words = 0;
         char *ptr;
