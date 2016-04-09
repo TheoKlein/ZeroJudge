@@ -10,8 +10,7 @@ int main() {
     while(n-- != 0){
         char input[100];
         gets(input);
-        unsigned long int length = strlen(input);
-        for(i = 0 ; i < length ; ++i){
+        for(i = 0 ; i < strlen(input) ; ++i){
             if(isalpha(input[i])){
                 frequency[(toupper(input[i])) - 65]++;
                 if(frequency[(toupper(input[i])) - 65] > max)
