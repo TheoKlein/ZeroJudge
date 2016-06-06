@@ -1,9 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main (){
-    char s[9999];
-    while(cin>>s)
-	cout<<"hello, "<<s<<endl;
+    string input;
+    while(cin >> input)
+        cout << "hello, " << input <<endl;
     return 0;
 }
