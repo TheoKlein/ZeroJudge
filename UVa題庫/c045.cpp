@@ -14,9 +14,8 @@ int main() {
             max = input.length();
         index++;
     }
-    index--;
     for(int i = 0 ; i < max ; ++i){
-        for(int j = index ; j >= 0 ; --j){
+        for(int j = index - 1 ; j >= 0 ; --j){
             if(array[j][i] == '\0')
                 cout << ' ';
             else
